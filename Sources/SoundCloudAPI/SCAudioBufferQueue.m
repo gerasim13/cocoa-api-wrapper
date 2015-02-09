@@ -447,7 +447,7 @@ void SCAudioRouteChangedCallback(void *clientData,
 		self.bufferState = SCAudioBufferBufferState_BufferingNotReadyToPlay;
 	}
 	if (bufferEmpty) {
-		if (self.playState = SCAudioBufferPlayState_Playing) {
+		if ((self.playState = SCAudioBufferPlayState_Playing)) {
 			if (endOfData) {
 				self.playState = SCAudioBufferPlayState_Stopping;
 				[self _doStop];

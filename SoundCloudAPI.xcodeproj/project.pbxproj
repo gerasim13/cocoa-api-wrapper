@@ -365,7 +365,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0610;
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "SoundCloudAPI" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -489,7 +489,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "Outsourced/**";
-				VALID_ARCHS = "$(inherited) i386";
+				VALID_ARCHS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -510,7 +510,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "Outsourced/**";
-				VALID_ARCHS = "$(inherited) i386";
+				VALID_ARCHS = "$(inherited)";
 			};
 			name = Release;
 		};
@@ -526,6 +526,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				SCAPI_VERSION = 2.0b6;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -540,6 +541,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				SCAPI_VERSION = 2.0b6;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "$(inherited)";
 			};
 			name = Release;
 		};
